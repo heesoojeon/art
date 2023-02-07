@@ -1,1 +1,1 @@
-# art
+pip install pillow
