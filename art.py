@@ -1,4 +1,6 @@
 from PIL import Image
-import cv2 as cv
-import numpy as np
-img = cv2.imread('작업블라썸.png', cv.IMREAD)
+import os
+
+os.chdir("C://Users//user//Desktop")
+work = Image.open('작업 블라썸.jpg')
+work.show()
