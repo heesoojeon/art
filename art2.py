@@ -1,9 +1,10 @@
 import cv2
+import numpy
 
 art = '작업블라썸.jpg'
 image = cv2.imread(art)
 
-panel = np.zeros([100,400],np.unit8)
+panel = numpy.zeros([100,400],numpy.unit8)
 cv2.namedWindow('panel')
 
 def nothing(x):
