@@ -3,6 +3,9 @@
 import cv2
 import numpy as np
 
+print(cv2.__version__)
+exit()
+
 file_name = '작업 블라썸.jpg'
 image = cv2.imread(file_name)
 
