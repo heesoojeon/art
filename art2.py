@@ -1,28 +1,28 @@
+from PIL import Image
+import matplotlib.pylab as plt
 
 
-import opencv2 as cv2
-import numpy as np
+img = Image.open('work_blossom.jpg')
+plt.imshow(img)
+plt.show()
+small_img=img.resize((8,8),Image.BILINEAR)
 
-print(cv2.__version__)
-exit()
+#resize
+o_size=(1000,1000) #output size
+res=small_img.resize(o_size,Image.NEAREST)
+#save image
+res.save('mario_8x8.png')
+#display image
+plt.imshow(res)
+plt.show()
 
-print(np.__version__)
-exit()
-print("설치가 잘 되었습니다.")
 
-file_name = 'work_blossom.jpg'
-image = cv2.imread(file_name)
 
-panel = np.zeros([100,400], np.uint8)
-cv2.namedWindow('panel')
 
-def nothing(x):
-    pass
 
-cv2.createTrackbar('FX', 'panel', 1,100, nothing)
-cv2.createTrackbar('FY', 'panel', 1,100, nothing)
 
-return_name = file_name.replace('_','_pixel')
+
+
 
 
 
