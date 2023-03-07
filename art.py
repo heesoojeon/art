@@ -13,4 +13,4 @@ for i in range(0,width):
         color = (i+j)*255/(width+height)
         work1[i,j] = (125,int(color),125)
 work.show()   
-print ("코드가 잘 되었습니다")     
+     
