@@ -23,3 +23,15 @@ fps = 25
 fource = cv2.VedeoWriter_fource(*'mp4v')
 BASE_DIR = os.path.dirname(os.path.abspath(_file))
 writer = cv2.VideoWriter(BASE_DIR + '/'+ 'output.mp4',fourcc, fps, (width,height))  
+
+for file in image_files:
+    img = cv2.imread(file)
+    writer.write(img)
+    cv2.imshow("Color", img)
+    
+    #esc키 누르면 중지
+    if cv2.waitKey(25) == 27:
+        break
+writer.release()
+cv2.destroyAllWindows()             
+        
