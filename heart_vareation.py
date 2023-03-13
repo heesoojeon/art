@@ -15,7 +15,7 @@ class MyCanvas(QWidget):
         painter.begin(self)
         # 팔레트 색상을 만들기
         red = QPen(QColor(255,167, 167), 10, Qt.SolidLine) # HSV Color Format ( 0~255 ) , size(10)
-        b = QPen(QColor(0, 0, 250), 10, Qt.SolidLine)
+        b = QPen(QColor(250, 237, 125), 10, Qt.SolidLine)
         
         #색을 정하기
         painter.setPen(red)
@@ -123,7 +123,29 @@ class MyCanvas(QWidget):
         painter.drawPoint(270, 380) , painter.drawPoint(270, 380) , painter.drawPoint(270, 380)
         painter.drawPoint(260, 390) , painter.drawPoint(260, 390) , painter.drawPoint(260, 390)
         
+        painter.setPen(b)
+        painter.drawPoint(250, 199) , painter.drawPoint(250, 199) , painter.drawPoint(250, 199)
         
+        painter.drawPoint(240, 191) , painter.drawPoint(240, 191) , painter.drawPoint(240, 191)
+        painter.drawPoint(260, 191) , painter.drawPoint(260, 191) , painter.drawPoint(260, 191)
+        
+        painter.drawPoint(230, 185) , painter.drawPoint(230, 185) , painter.drawPoint(230, 185)
+        painter.drawPoint(270, 185) , painter.drawPoint(270, 185) , painter.drawPoint(270, 185)
+        
+        painter.drawPoint(225, 185) , painter.drawPoint(225, 185) , painter.drawPoint(225, 185)
+        painter.drawPoint(275, 185) , painter.drawPoint(275, 185) , painter.drawPoint(275, 185)
+        
+        painter.drawPoint(220, 180) , painter.drawPoint(220, 180) , painter.drawPoint(220, 180)
+        painter.drawPoint(280, 180) , painter.drawPoint(280, 180) , painter.drawPoint(280, 180)
+        
+        painter.drawPoint(210, 175) , painter.drawPoint(210, 175) , painter.drawPoint(210, 175)
+        painter.drawPoint(250, 175) , painter.drawPoint(250, 175) , painter.drawPoint(250, 175)
+        
+        painter.drawPoint(205, 173) , painter.drawPoint(205, 173) , painter.drawPoint(205, 173)
+        painter.drawPoint(255, 173) , painter.drawPoint(255, 173) , painter.drawPoint(255, 173)
+        
+        painter.drawPoint(200, 170) , painter.drawPoint(200, 170) , painter.drawPoint(200, 170)
+        painter.drawPoint(260, 170) , painter.drawPoint(260, 170) , painter.drawPoint(260, 170)
        
         
         
