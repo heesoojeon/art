@@ -72,9 +72,9 @@ def draw(maskfile,colorfile):
         turtle.stamp()
 
 
-os.chdir("C://Users/user/Desktop")
-draw("heart.PNG","flower.JPG")
-draw("heart1.PNG","C://Users/user/Desktop/microworld.JPG")
+os.chdir(r"C://Users/user/Desktop")
+draw(r"heart.PNG","flower.JPG")
+draw(r"heart1.PNG","C://Users/user/Desktop/microworld.JPG")
         
 
 cv2.waitKey(0)  
