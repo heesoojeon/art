@@ -39,6 +39,7 @@ pen.hideturtle()
 # Keep the screen open until closed by the user
 turtle.done()
 
+#This code uses the math library to calculate the x and y coordinates of each dot, based on its position in the circle. The turtle library is then used to draw the dots at the appropriate locations.
 
 
 
