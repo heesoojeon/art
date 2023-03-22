@@ -4,7 +4,7 @@ import turtle
 
 turtle.shape("square")
 turtle.shapesize(1,1)
-turtle.color("red")
+turtle.color("pink")
 
 def stamp(x,y):
     turtle.goto(x,y)
@@ -109,7 +109,7 @@ stamp(30,-120)
 stamp(20,-130)
 stamp(10,-140)
 #####################################
-turtle.color("blue")
+turtle.color("yellowgreen")
 stamp(0,51)
 stamp(-10,59),stamp(10,59)
 stamp(-20,65),stamp(20,65)
