@@ -14,4 +14,5 @@ while True:
         break
     
 cv2.imshow("camu_cat.mp4")
+print ("안녕하세요")
     
