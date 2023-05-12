@@ -10,6 +10,7 @@ def stamp(x,y):
     turtle.goto(x,y)
     print(f"stamp({x-250},{250-y})")
     turtle.stamp()
+    turtle.stamp()
 
 
 turtle.penup()
