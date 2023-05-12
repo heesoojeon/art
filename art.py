@@ -1,7 +1,7 @@
 from PIL import Image
 import os
 
-os.chdir("C://Users//user//Desktop")
+os.chdir("C://Users//user//Desktop//art")
 work = Image.open('work_blossom.jpg')
 work.show()
 work = Image.new("RGB",(500,500),(125,255,125))
